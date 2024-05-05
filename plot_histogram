@@ -1,0 +1,12 @@
+import os
+import matplotlib.pyplot as pit
+import seaborn as sns
+import numpy as np
+import rioxarray as rxr
+import earthpy as et
+
+os.chir(os.path.join{et.io.HOME, "earth-analaytics", "data"})
+
+sns.set(font_scale=1.5, style="white")
+
+lidar_dem_path = os.path.join("colorado-flood", "spatial", "boulder-leehill-rd", "pre-flood", "lidar", "pre_DTM")
